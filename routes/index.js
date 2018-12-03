@@ -2,8 +2,6 @@ var express = require('express');
 var { MongoClient } = require('mongodb');
 var router = express.Router();
 
-const title = process.env.TITLE;
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
   const url = process.env.URL;

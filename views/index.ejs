@@ -5,7 +5,11 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <% books.forEach((book) => { %>
+      <div>
+        <h3><%=book.title%></h3>
+        <h4><%=book.author%></h4>
+      </div>
+    <% }); %>
   </body>
 </html>
