@@ -6,8 +6,9 @@
   </head>
   <body>
     <% books.forEach(function (book) {%>
-      <div>
-        <h3><%=book.title%></h3>
+      <div style="display:inline-block;">
+        <img src="https://librarystoragenico.blob.core.windows.net/bookcovers/<%=book.bookId%>.jpg" width="150px" border="0" />
+          <h3><%=book.title%></h3>
           <p><%=book.author%></p>
       </div>
     <% }); %>
