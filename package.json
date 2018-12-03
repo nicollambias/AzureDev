@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "lint": "esw public routes views --colors",
+    "lint": "esw --color",
     "lint:watch": "npm run lint -- --watch"
   },
   "dependencies": {

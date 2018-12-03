@@ -9,6 +9,9 @@ router.get('/', function(req, res, next) {
   const password = process.env.PASSWORD;
   const dbName = 'library';
   
+  const title = process.env.TITLE;
+  
+  
   (async function mongo(){
     let client;
     try {
@@ -16,8 +19,8 @@ router.get('/', function(req, res, next) {
       });
       
       const db = client.db(dbName);
-      const response = await db.collection('books').find().toArray();
-      res.json(response);
+      const books = await db.collection('books').find().toArray();
+      res.render('index', {books} );
       
     } catch(err) {
       console.log(err);
