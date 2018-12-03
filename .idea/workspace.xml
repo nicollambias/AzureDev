@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b50b86d-7650-4113-a39d-adea4d47ef27" name="Default Changelist" comment="" />
+    <list default="true" id="6b50b86d-7650-4113-a39d-adea4d47ef27" name="Default Changelist" comment="Listado de libros">
+      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+    </list>
+    <list id="1cdcf7b8-1912-4e0b-98ac-e4b3be4c971b" name="Agregamos el titulo" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,7 +29,84 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="EJS" value="1" />
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="66" />
+          <entry key="JavaScript" value="731" />
+          <entry key="PLAIN_TEXT" value="70" />
+        </counts>
+      </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="21" column="107" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="128" selection-start-line="128" selection-end-line="149" selection-end-column="3" />
+              <folding>
+                <element signature="e#155#4453#0" />
+                <element signature="e#2570#3191#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[{&quot;_id&quot;:&quot;5bfa249b6eb0fd1d644778d2&quot;,&quot;title&quot;:&quot;War and Peace&quot;,&quot;genre&quot;:&quot;Historical Fiction&quot;,&quot;author&quot;:&quot;Lev Nikolayevich Tolstoy&quot;,&quot;bookId&quot;:656,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa249b6eb0fd1d644778d2&quot;}},{&quot;_id&quot;:&quot;5bfa249b6eb0fd1d644778d3&quot;,&quot;title&quot;:&quot;Les Misérables&quot;,&quot;genre&quot;:&quot;Historical Fiction&quot;,&quot;author&quot;:&quot;Victor Hugo&quot;,&quot;bookId&quot;:24280,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa249b6eb0fd1d644778d3&quot;}},{&quot;_id&quot;:&quot;5bfa249b6eb0fd1d644778d4&quot;,&quot;title&quot;:&quot;The Time Machine&quot;,&quot;genre&quot;:&quot;Science Fiction&quot;,&quot;author&quot;:&quot;H. G. Wells&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa249b6eb0fd1d644778d4&quot;}},{&quot;_id&quot;:&quot;5bfa249b6eb0fd1d644778d5&quot;,&quot;title&quot;:&quot;A Journey into the Center of the Earth&quot;,&quot;genre&quot;:&quot;Science Fiction&quot;,&quot;author&quot;:&quot;Jules Verne&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa249b6eb0fd1d644778d5&quot;}},{&quot;_id&quot;:&quot;5bfa249b6eb0fd1d644778d6&quot;,&quot;title&quot;:&quot;The Dark World&quot;,&quot;genre&quot;:&quot;Fantasy&quot;,&quot;author&quot;:&quot;Henry Kuttner&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa249b6eb0fd1d644778d6&quot;}},{&quot;_id&quot;:&quot;5bfa249b6eb0fd1d644778d7&quot;,&quot;title&quot;:&quot;The Wind in the Willows&quot;,&quot;genre&quot;:&quot;Fantasy&quot;,&quot;author&quot;:&quot;Kenneth Grahame&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa249b6eb0fd1d644778d7&quot;}},{&quot;_id&quot;:&quot;5bfa249b6eb0fd1d644778d8&quot;,&quot;title&quot;:&quot;Life On The Mississippi&quot;,&quot;genre&quot;:&quot;History&quot;,&quot;author&quot;:&quot;Mark Twain&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa249b6eb0fd1d644778d8&quot;}},{&quot;_id&quot;:&quot;5bfa249b6eb0fd1d644778d9&quot;,&quot;title&quot;:&quot;Childhood&quot;,&quot;genre&quot;:&quot;Biography&quot;,&quot;author&quot;:&quot;Lev Nikolayevich Tolstoy&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa249b6eb0fd1d644778d9&quot;}},{&quot;_id&quot;:&quot;5bfa25b2de752438ac843d41&quot;,&quot;title&quot;:&quot;War and Peace&quot;,&quot;genre&quot;:&quot;Historical Fiction&quot;,&quot;author&quot;:&quot;Lev Nikolayevich Tolstoy&quot;,&quot;bookId&quot;:656,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa25b2de752438ac843d41&quot;}},{&quot;_id&quot;:&quot;5bfa25b2de752438ac843d42&quot;,&quot;title&quot;:&quot;Les Misérables&quot;,&quot;genre&quot;:&quot;Historical Fiction&quot;,&quot;author&quot;:&quot;Victor Hugo&quot;,&quot;bookId&quot;:24280,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa25b2de752438ac843d42&quot;}},{&quot;_id&quot;:&quot;5bfa25b2de752438ac843d43&quot;,&quot;title&quot;:&quot;The Time Machine&quot;,&quot;genre&quot;:&quot;Science Fiction&quot;,&quot;author&quot;:&quot;H. G. Wells&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa25b2de752438ac843d43&quot;}},{&quot;_id&quot;:&quot;5bfa25b2de752438ac843d44&quot;,&quot;title&quot;:&quot;A Journey into the Center of the Earth&quot;,&quot;genre&quot;:&quot;Science Fiction&quot;,&quot;author&quot;:&quot;Jules Verne&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa25b2de752438ac843d44&quot;}},{&quot;_id&quot;:&quot;5bfa25b2de752438ac843d45&quot;,&quot;title&quot;:&quot;The Dark World&quot;,&quot;genre&quot;:&quot;Fantasy&quot;,&quot;author&quot;:&quot;Henry Kuttner&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa25b2de752438ac843d45&quot;}},{&quot;_id&quot;:&quot;5bfa25b2de752438ac843d46&quot;,&quot;title&quot;:&quot;The Wind in the Willows&quot;,&quot;genre&quot;:&quot;Fantasy&quot;,&quot;author&quot;:&quot;Kenneth Grahame&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa25b2de752438ac843d46&quot;}},{&quot;_id&quot;:&quot;5bfa25b2de752438ac843d47&quot;,&quot;title&quot;:&quot;Life On The Mississippi&quot;,&quot;genre&quot;:&quot;History&quot;,&quot;author&quot;:&quot;Mark Twain&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa25b2de752438ac843d47&quot;}},{&quot;_id&quot;:&quot;5bfa25b2de752438ac843d48&quot;,&quot;title&quot;:&quot;Childhood&quot;,&quot;genre&quot;:&quot;Biography&quot;,&quot;author&quot;:&quot;Lev Nikolayevich Tolstoy&quot;,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfa25b2de752438ac843d48&quot;}},{&quot;_id&quot;:&quot;5bfcc57fe1b0a92640d61a46&quot;,&quot;title&quot;:&quot;The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life&quot;,&quot;genre&quot;:&quot;Corporate&quot;,&quot;author&quot;:&quot;Mark Mason&quot;,&quot;__v&quot;:0,&quot;bookId&quot;:null,&quot;read&quot;:false,&quot;links&quot;:{&quot;self&quot;:&quot;http://localhost:8000/api/books/5bfcc57fe1b0a92640d61a46&quot;}}]</find>
+      <find>&quot;links&quot;</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/routes/admin.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -38,9 +125,12 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="683" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -61,6 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.11.0" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -91,12 +182,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543790294804</updated>
-      <workItem from="1543790298413" duration="761000" />
+      <workItem from="1543790298413" duration="2243000" />
     </task>
+    <task id="LOCAL-00001" summary="Agregamos el titulo">
+      <created>1543795434207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543795434207</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="761000" />
+    <option name="totallyTimeSpent" value="7488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -108,23 +207,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="676" y="0" width="697" height="745" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14567527" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2495637" />
+      <window_info id="npm" order="2" side_tool="true" weight="0.32984293" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.33387887" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33387887" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -133,7 +233,106 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Agregamos el titulo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregamos el titulo" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Javascript/node/FullApp/src/routes/bookRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Javascript/node/FullApp/src/routes/authRoutes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Javascript/node/FullApp/src/controllers/bookController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="128" selection-start-line="128" selection-end-line="149" selection-end-column="3" />
+          <folding>
+            <element signature="e#155#4453#0" />
+            <element signature="e#2570#3191#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="21" column="107" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
